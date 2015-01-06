@@ -1,0 +1,33 @@
+//
+//  CoreText-PrefixHeader.pch
+//  CoreText
+//
+//  Created by test on 15/1/5.
+//  Copyright (c) 2015年 kanon. All rights reserved.
+//
+
+#ifndef CoreText_CoreText_PrefixHeader_pch
+#define CoreText_CoreText_PrefixHeader_pch
+#import "ViewController.h"
+#import "NSArray+NSArray_ILExtension.h"
+
+#define FontHeight                  15.0
+#define ImageLeftPadding            2.0
+#define ImageTopPadding             3.0
+#define FontSize                    FontHeight
+#define LineSpacing                 10.0
+#define EmotionImageWidth           FontSize
+
+#define ClickStringItemPattern    @"\\w+:"
+#define ClickActItemPattern    @" @\\w+ "
+#define ClickThemeItemPattern    @"#\\w+#"
+#define EmotionItemPattern    @"\\[\\w+\\]"
+
+#define AttributedImageNameKey @"emojiName"
+
+#define kContentText6 @"C大叔回复B大叔:如果一个人觉得他自己[侧丹丹][侧丹丹][1][1][1][1][侧丹丹][侧丹丹][侧丹丹][侧丹丹]死的很[侧丹丹]不值  就会把诅咒 @C大叔  @调皮人 [2][1][2][2]留#话题狗#在他生前#话题猪#接触过的地方 只要有人经过这些地方 就会被咒语套中"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
